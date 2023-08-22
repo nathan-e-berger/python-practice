@@ -7,4 +7,11 @@ def capitalize(phrase):
         >>> capitalize('only first word')
         'Only first word'
     """
+    capitalized = ""
 
+    capitalized += phrase[:1].upper()
+
+    for char in phrase[1:]:
+        capitalized += char
+
+    return capitalized

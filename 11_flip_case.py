@@ -11,6 +11,7 @@ def flip_case(phrase, to_swap):
         'AaaaHHH'
 
     """
+    # swapcase() method
     word = ''
     swap_chars = to_swap.upper() + to_swap.lower()
 
